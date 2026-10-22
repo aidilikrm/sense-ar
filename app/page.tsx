@@ -25,7 +25,7 @@ const activities: Activity[] = [
     difficulty: "Easy",
     skill: "Sensory Exploration",
     emoji: "🐑",
-    href: "/animals",
+    href: "/ar/animals",
   },
   {
     id: 2,
@@ -35,7 +35,7 @@ const activities: Activity[] = [
     difficulty: "Easy",
     skill: "Tactile Recognition",
     emoji: "🧸",
-    href: "/soft-texture",
+    href: "/ar/soft-texture",
   },
   {
     id: 3,
@@ -45,7 +45,7 @@ const activities: Activity[] = [
     difficulty: "Easy",
     skill: "Tactile Discrimination",
     emoji: "✋",
-    href: "/sensory-wall",
+    href: "/ar/sensory-wall",
   },
   {
     id: 4,
@@ -55,7 +55,7 @@ const activities: Activity[] = [
     difficulty: "Easy",
     skill: "Visual Recognition",
     emoji: "🍓",
-    href: "/our-farm",
+    href: "/ar/our-farm",
   },
   {
     id: 5,
@@ -65,7 +65,7 @@ const activities: Activity[] = [
     difficulty: "Moderate",
     skill: "Fine Motor Skills",
     emoji: "🤐",
-    href: "/zipper-skills",
+    href: "/ar/zipper-skills",
   },
   {
     id: 6,
@@ -75,7 +75,7 @@ const activities: Activity[] = [
     difficulty: "Moderate",
     skill: "Shape Recognition",
     emoji: "🔺",
-    href: "/shape-match",
+    href: "/ar/shape-match",
   },
   {
     id: 7,
@@ -85,7 +85,7 @@ const activities: Activity[] = [
     difficulty: "Moderate",
     skill: "Creativity & Fine Motor",
     emoji: "🍕",
-    href: "/creative-pizza",
+    href: "/ar/creative-pizza",
   },
   {
     id: 8,
@@ -95,7 +95,7 @@ const activities: Activity[] = [
     difficulty: "Advanced",
     skill: "Daily Living Skills",
     emoji: "👟",
-    href: "/shoelace-skills",
+    href: "/ar/shoelace-skills",
   },
   {
     id: 9,
@@ -105,7 +105,7 @@ const activities: Activity[] = [
     difficulty: "Advanced",
     skill: "Self-Care Skills",
     emoji: "🐊",
-    href: "/brush-my-teeth",
+    href: "/ar/brush-my-teeth",
   },
 ];
 
@@ -481,7 +481,7 @@ export default function Home() {
                     {activity.description}
                   </p>
 
-                  {/* SEMUA LINK AKTIF */}
+                  {/* SEMUA LINK AKTIF KE WEBAR */}
 
                   <Link
                     href={activity.href}
